@@ -9,5 +9,9 @@ public class Aula07Arrays01 {
         System.out.println(idades[0]);
         System.out.println(idades[1]);
         System.out.println(idades[2]);
+
+        int[] test;
+        test = new int[10];
+        for (int i : test) System.out.println("---" + i);
     }
 }

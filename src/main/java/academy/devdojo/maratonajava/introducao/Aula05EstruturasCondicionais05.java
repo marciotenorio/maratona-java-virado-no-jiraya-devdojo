@@ -33,17 +33,12 @@ public class Aula05EstruturasCondicionais05 {
         }
 
         String sexo = "F";
-        switch (sexo){
-            case "M":
-                System.out.println("Homem");
-                break;
-            case "F": {
+        switch (sexo) {
+            case "M" -> System.out.println("Homem");
+            case "F" -> {
                 System.out.println("Mulher");
-                break;
             }
-            default:
-                System.out.println("Inválido");
-                break;
+            default -> System.out.println("Inválido");
         }
 
     }

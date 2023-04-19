@@ -5,6 +5,7 @@ import academy.devdojo.maratonajava.javacore.Aintroducaoclasses.dominio.Estudant
 public class EstudanteTest01 {
     public static void main(String[] args) {
         Estudante estudante = new Estudante();
+        Estudante estudante2 = new Estudante();
         estudante.nome = "Luffy";
         estudante.idade = 21;
         estudante.sexo = 'M';
@@ -13,5 +14,7 @@ public class EstudanteTest01 {
         System.out.println(estudante.idade);
         System.out.println(estudante.sexo);
         System.out.println(estudante);
+
+        System.out.println(estudante2);
     }
 }

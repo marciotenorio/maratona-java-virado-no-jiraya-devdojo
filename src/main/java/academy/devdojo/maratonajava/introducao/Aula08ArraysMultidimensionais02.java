@@ -19,5 +19,12 @@ public class Aula08ArraysMultidimensionais02 {
             }
 
         }
+
+        System.out.println("\n");
+
+        int[][] test = new int[3][3];
+
+
+        for(int item[]: test) for (int value: item) System.out.println(item);
     }
 }
